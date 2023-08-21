@@ -27,3 +27,4 @@ const titleCased = () => {
 }
 // currently all the words are seperated and the first letters are capitalized
 // so we access the inside of the arrays again and then combined the words again
+// all we had to do was add .join at the end and it works since the return will end after the last thing is called which is the .join(" ")
